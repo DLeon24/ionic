@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+	<html>	
+      
+<head>
+    <title> CJAVA Prueba de curso | Bienvenidos </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Diseño y desarrollo web">
+    <
+</head>
+
+<body>
+  <section id="cajas">
+        <div class="contenedor">
+            <div class="caja">
+                <img src="img/taxi-remisse.jpg">
+                <h3>Taxi Remise</h3>
+                <p>HTML5 (HyperText Markup Language, versión 5) es la quinta revisión del lenguaje HTML. Esta nueva versión (aún en desarrollo), y en conjunto con CSS3, define los nuevos estándares de desarrollo web, rediseñando el código para resolver problemas y actualizándolo así a nuevas necesidades.  </p>
+            </div>
+            <div class="caja">
+                <img src="img/taxiIndependiente.jpg">
+                <h3>Cjava</h3>
+                <p>Es la quinta revisión del lenguaje HTML. Esta nueva versión (aún en desarrollo), y en conjunto con CSS3, define los nuevos estándares de desarrollo web, rediseñando el código para resolver problemas y actualizándolo así a nuevas necesidades</p>
+            <div/>
+            
+        </div>
+    </section>
+
+
+<body>	
+
+
+
+
+	</html>			
+

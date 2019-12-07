@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Prueba de Funcionalidad de JavaScript</title>
+	<link rel="stylesheet" type="text/css" href="css/reloj.css">
+	<script type="text/javascript">
+		/*function abrir_ventana(){
+			window.open("http://www.sunat.gob.pe");
+		}*/
+
+		/*function para_abrir(){
+			//clearTimeout(pop);
+		}*/
+
+		function startTime() {
+		    var today = new Date();
+		    var hr = today.getHours();
+		    var min = today.getMinutes();
+		    var sec = today.getSeconds();
+    //Add a zero in front of numbers<10
+		    min = checkTime(min);
+		    sec = checkTime(sec);
+		    document.getElementById("clock").innerHTML = hr + " : " + min + " : " + sec;
+		    var time = setTimeout(function(){ startTime() }, 500);
+}
+function checkTime(i) {
+    if (i < 10) {
+        i = "0" + i;
+    }
+    return i;
+}
+
+		//pop = setInterval ("abrir_ventana()",3);
+
+	</script>
+</head>
+<body onload="startTime()">
+	<header> <h1>Prueba de Funcionalidad de JavaScript</h1></header>
+   <p>Esta demo nos permitira poder probar las funcionalidades de 
+      la tecnologia JavaScript en nuestras paginas Web</p>
+
+      <script type="text/javascript"> document.write("Hola Gente")
+
+      function mostrarMensaje() { 
+                           document.write("Cuidado<br>"); 
+                           document.write("Ingrese su documento correctamente<br>"); 
+                             } 
+
+       var nombre ='Juan';
+       var edad = 20;
+       var altura = 1.20;
+       var casado = false;
+
+       apellido=prompt("Ingrese su apellido:","Valdivia");
+
+       document.write(nombre);
+       document.write('<br>');
+
+       document.write(apellido);
+       document.write('<br>');
+
+       document.write(edad);
+       document.write('<br>');
+       document.write(altura);
+       document.write('<br>');
+       document.write(casado);
+       document.write('<br>');
+
+       nombre=prompt("Ingrese nombre:",""); 
+            nota=parseInt(prompt("Ingrese su nota:","")); 
+                             if (nota>=4) { 
+                                    document.write(nombre+"esta aprobado con un "+nota); 
+                                 } 
+
+       switch (nota) { 
+                            case 1: document.write("muy mal"); 
+                                       break; 
+                            case 2: document.write("malo"); 
+                                      break; 
+                             case 3: document.write("casi"); 
+                                      break; 
+                             case 4: document.write("aprobado a las justas"); 
+                                      break; 
+                             case 5: document.write("aprobado"); 
+                                      break; 
+                              default:document.write("debe ingresar un valor comprendido entre 1 y 5."); 
+
+               }
+
+
+      </script>
+
+     
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <title>Incluyendo JS en HTML5</title>
+    </head>
+    <body>  
+        <section>
+            <span id="lanzar_alerta">Clic aqu&iacute;</span>
+        </section>
+        <script type="text/javascript">
+            document.getElementById('lanzar_alerta').onclick = function () {
+                alert('hola mundo!');
+            }
+        </script>
+    </body>
+</html>
